@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 align="center">Hackthon Event Registration Form</h1>
+    <p align="center">Last Registration Day-May 21,2025</p>
+    <hr>
+    <p align="center"><h1 align="center">Attendee Information</h1></p>
+    <p align="center">please fill name and contact information of attendees.</p>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Personal Info:</legend>
+            <br>
+     <label for="name">Your name:</label>
+     <select id="name">
+        <optgroup label="Prefix">
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Miss.">Miss.</option>
+        </optgroup>
+    </select>
+    &nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="First Name">&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Second Name">
+        <br>
+        <br>
+        <label for="email">Email Address:</label>
+        <input type="email" placeholder="example@example.com" id="email">&nbsp;&nbsp;&nbsp;
+        <br><br>
+        <label for="contact">Contact Number:</label>
+        <input type="number" placeholder="(000)000-0000" id="contact">
+        <br> 
+     <hr>
+     <div>
+     <h4>Do You want Accomadation:</h4>
+     <input type="radio" id="yes" name="id">Yes &nbsp;
+     <input type="radio" id="no" name="id">No &nbsp;
+    </div>
+    <div>
+     <h4>Will You Have A Guest With You?</h4>
+     <h4>Note:Only One Guest Will Allowed</h4>
+     <input type="radio" id="1" name="id1">Yes &nbsp;&nbsp;&nbsp;
+     <input type="radio" id="2" name="id1">No</input>
+    </div>
+     <br>
+     <h4>Room Type:</h4>
+     <select>
+        <optgroup labels="Select Room Type">
+            <option value="Single occupancy">Single Occupancy</option>
+            <option value="Double OcCupaancy">Double Ocuupancy</option>
+        </optgroup>
+     </select>     
+     <h4>Payment Mode For Accomadation:</h4>
+     <input type="radio" id="Bank" name="id3">Net Banking<br>
+     <input type="radio" id="card" name="id3">Credit/Debit card<br>
+     <input type="radio" id="cash" name="id3">Cash<hr>
+     <h4>Payment Mode For Registration:</h4>
+     <input type="radio" id="Bank" name="id4">Net Banking<br>
+     <input type="radio" id="card" name="id4">Credit/Debit card<br>
+     <input type="radio" id="cash" name="id4">Cash<hr>
+     <fieldset>
+        <br>
+        <legend>Pass Collection:</legend>
+        <label for="Id" >Upload ID Proof:</label>
+        <input type="file" id="Id">
+        <label for="Payment">Payment Reciept For Accomodation:</label>
+        <input type="file" id="Payment">
+        <label for="Payment">Payment Reciept For Registration:</label>
+        <input type="file" id="Payment">
+        <br><br>
+     </fieldset>
+    </fieldset>
+    <br>
+    <input type="button" value="register" >
+    &nbsp;&nbsp;&nbsp;
+    <input type="reset" value="reset">
+
+    </form>
+</body>
+</html>
