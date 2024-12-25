@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+
+            background-color: blue;
+            align-content: center;
+            margin-left: 50px;
+        }
+        .container{
+            display: grid;
+            padding-top:70px;
+        
+            
+            grid-template-columns: repeat(7,200px);
+            height: 50%;
+            width:40%;
+            /* grid-template-rows: repeat(7,100px); */
+            gap:30px;
+        }
+        .box1{
+            background-color: white;
+           
+            text-align: center;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            /* grid-column-start: 1;
+            grid-column-end:2; */
+            gap:30px;
+
+        }
+        .box2{
+            background-color: white;
+            grid-column-start: 1;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        .box3{
+            background-color: white;
+            grid-column-start: 1;
+            grid-row-start: 6;
+            grid-row-end: 7;
+        }
+        .box4{
+            background-color: white;
+            grid-column-start: 2;
+            grid-row-start:1;
+            grid-row-end:2;
+        }
+        .box5{
+            background-color: white;
+            grid-column-start: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .box6{
+            background-color: white;
+            grid-column-start: 2;
+            grid-row-start: 5;
+            grid-row-end: 7;
+        }
+        .box7{
+            background-color: white;
+            grid-column-start: 3;
+            grid-column-end: 7;
+            grid-row-start:1;
+        }
+        .box8{
+            background-color: white;
+            grid-column-start: 3;
+            grid-column-end:4;
+            grid-row-start: 2;
+            grid-row-end: 6;
+            
+        }
+        .box9{
+            background-color: white;
+            grid-column-start:4;
+            grid-column-end: 7;
+            grid-row-start:2;
+            grid-row-end: 4;
+        }
+        .box10{
+            background-color: white;
+            grid-column-start:4;
+            grid-column-end: 7;
+            grid-row-start:6;
+            grid-row-end: 5;
+        }
+        .box11{
+            background-color: white;
+            grid-column-start:3;
+            grid-column-end: 7;
+            grid-row-start:6;
+            grid-row-end: 7;
+        }
+        
+        .box1 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box2 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box3 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box4 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box5 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box6 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box7 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box8 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box9 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box10 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+        .box11 p{
+            text-align: center;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Grid Examples</h1>
+    <div class="container">
+        <div class="box1"><p>Mansonry 1</p></div>
+        <div class="box2"><p>Flexible Breadth</p></div>
+        <div class="box3"><p>DOM order</p></div>
+        <div class="box4"><p>Responsive</p></div>
+        <div class="box5"><p>Fluid</p></div>
+        <div class="box6"><p>Mansonty II</p></div>
+        <div class="box7"><p>Overlap</p></div>
+        <div class="box8"><p>Explicity placed</p></div>
+        <div class="box9"><p>Negative Space</p></div>
+        <div class="box10"><p>Mansonry III</p></div>
+        <div class="box11"><p>Named Tracks</p></div>
+            
+    </div>
+</body>
+</html>
