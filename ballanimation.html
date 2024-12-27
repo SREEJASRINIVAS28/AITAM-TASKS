@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+         .ball{
+            width:200px;
+            height:200px;
+            border-radius: 50%;
+            background-color: crimson;
+            margin: 50px;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name:jump;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction:reverse;
+         }
+         @keyframes jump{
+            0%,100%{
+                background-color: blue;
+                color: azure;
+            }
+            50%{
+                background-color: brown;
+                color: black;
+                border-radius: 70%;
+                transform: translateY(50px);
+
+            }
+         }
+    </style>
+</head>
+<body>
+    <div class="ball">
+         Jump
+    </div>
+</body>
+</html>
