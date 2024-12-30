@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Saloon</title>
+    <style>
+        body{
+            background-color:white;
+        }
+        .body{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/5d126cae6a1e1c0001f46436/1561762139187-OVIK9VDVJ6GB18M8DGNG/HAIRCUT+2.png?format=1500w);
+            /* background-color:skyblue;
+            background-blend-mode:luminosity; */
+            /* filter: grayscale(100%); */
+            /* filter: sepia(100%); */
+            filter: saturate(200%);
+            background-position: center;
+            height: 500px;
+        }
+        .navbar{
+            
+            display:flex;
+            justify-content: space-between;
+            color: white;
+            align-items: center;
+            background-color: white;
+        }
+        
+        .list1{
+            display: flex;
+            justify-content: space-between;
+            gap:30px;
+            list-style: none;
+        }
+        #hair{
+            color: white;
+            text-align: center;
+            padding-top: 250px;
+        } 
+        #details{
+            color:cornsilk;
+            text-align: center;
+            font-style: italic;
+            font-weight: 500;
+        }
+        .btn{
+            display: flex;
+            margin-left: 40%;
+            gap:40px;
+        }
+        .btn :hover{
+            background-color:cornflowerblue;
+            cursor: pointer;
+
+        }
+        button{
+             padding:10px 10px;
+             
+        }
+        .Features1{
+            background-color:white;
+        }
+        .Features1 h3{
+            text-align: center;
+            color:cadetblue;
+        }
+        .Features1 h1{
+            text-align: center;
+            color: black;
+        }
+        .Features {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .img img{
+            height: 500px;
+            width: 400px;
+            border-radius: 30px;
+            /* background-color: skyblue;
+            background-blend-mode:luminosity; */
+        }
+        .services{
+            background-color: darkgrey;
+        }
+        .images{
+            display: flex;
+            justify-content: space-around;
+        }
+        .image1 img{
+            margin-left: 20%;
+            height:400px;
+            width:500px;
+            border-radius: 30px;
+            /* filter:brightness(0.5); */
+            /* filter:contrast(100%); */
+            /* filter:grayscale(100%); */
+            filter: sepia(100%);
+        }
+        .image2 img{
+            margin-left: 20%;
+            height:400px;
+            width:500px;
+            border-radius: 30px;
+            /* filter:brightness(0.5); */
+            /* filter:contrast(100%); */
+            /* filter:grayscale(100%); */
+            /* filter: hue-rotate(90deg); */
+            /* filter:invert(100%); */
+            /* filter: saturate(200%); */
+            filter: sepia(100%);
+        }
+        .testmonials{
+            padding-top:40px;
+            background-color:aliceblue;
+        }
+        .tests{
+            display: flex;
+            gap:30px;
+            margin-left: 10%;
+        }
+        .slot{
+            
+            height: 700px;
+            width:1500px;
+        }
+        .slot button{
+            background-color: cadetblue;
+            border-radius: 30px;
+
+            margin-left: 20px;
+            padding:4px 47%;
+            
+        }
+        [placeholder]{
+            padding: 5px 40%;
+            margin-left: 2px;
+        }
+        #service{
+            padding: 5px 40%;
+            margin-left: 2px;   
+        }
+        #TimeSlot{
+            padding: 5px 40%;
+            margin-left: 2px;
+        }
+        #mode{
+            padding: 5px 40%;
+            margin-left: 2px;
+        }
+        .info{
+            display: flex;
+            justify-content: space-around;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="barber" style="color: black;font-style:bold;font-weight: 3em;">BARBER</div>
+        <ul class="list1">
+            <li><a href="#">HOME</a></li>
+           <li><a href="#">FEATURES</a></li>
+           <li><a href="#">SERVICES</a></li>
+           <li><a href="#">TESTIMONIALS</a></li>
+           <li><a href="#">MEET US</a></li>
+           <li><a href="#">ACCOUNT</a></li>
+        </ul>
+    </nav>
+    <div class="body">
+    <h1 style="font-style: italic; font-weight: 3em;" id="hair">Hair Studio</h1>
+    <p id="details">We Are Here To Provide You The Best Treatment And Caring For Your 
+        lovely<br><span>Hair.</span>
+    </p>
+    <div class="btn">
+    <button>Find Out</button>
+    <button>Read More</button>
+    </div>
+</div>
+<div class="Features1">
+        <h3>FEATURES</h3>
+        <h1>Why You choose Us</h1>
+    </div>
+    <div class="Features">
+        <div class="about">
+            <h1 style="color:cadetblue">Experienced Staff</h1>
+            <p>We got the best staff in the town to <br><span>take care of your beautifuk hair.We</span><br><span>have vast Experienced hair stylist.</span></p>
+            <h1 style="color:cadetblue">Pre Booking Online</h1>
+            <p>You can pre book your apponintment<br><span>from home according to your</span><br>convineance.</p>
+            <h1 style="color:cadetblue">Affordable Cost</h1>
+            <p>We provide Our service at very<br><span>reasonable price so you can give a</span><br><span>treat to your hair without thinking</span><br> <span>twice.</span></p>
+        </div>
+        <div class="img">
+            <img src="https://nationaltoday.com/wp-content/uploads/2022/02/Barbers-Day.jpg">
+        </div>
+    </div>
+    <div class="services">
+    <h3 style="color:cadetblue;text-align: center;">SERVICES</h3>
+    <h1 style="color:black;text-align: center;">We Provide Best In Town</h1>
+    <div class="images">
+    <div class="image1">
+        <img src="https://th.bing.com/th/id/OIP.O4HRfZnbiyB0hLTCp7xSHQHaE8?rs=1&pid=ImgDetMain">
+        <img src="https://img.freepik.com/premium-photo/hairstylist-expertly-cutting-client-s-hair-modern-barber-shop-ai-generative_853812-3838.jpg">
+    </div>
+    <div class="image2">
+        <img src="https://th.bing.com/th/id/OIP.oh8Q4gJ0JJNoA3q2oeBcFAHaE8?w=800&h=534&rs=1&pid=ImgDetMain">
+        <img src="https://img.freepik.com/premium-photo/man-getting-haircut-by-barber_1124848-26975.jpg">
+    </div>
+</div>
+    </div>
+    <div class="testmonials">
+        <h1 style="text-align: center; color: cadetblue;">TESTMONIAL</h1>
+        <h1 style="text-align: center; color:black;font-size: 2em;">What Client Says</h1>
+        <div class="tests">
+            <p style="height: 100px;width: 400px; background-color:azure ;padding-top: 40px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic execitatenem omnis enum a ab officiis,quisquam dolorum saepe ration dolorem tempore!Repudiance accusantium porro est eaque mariores neque atque maxime?</p>
+            <p style="height: 100px;width: 400px; background-color:azure;padding-top: 40px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic execitatenem omnis enum a ab officiis,quisquam dolorum saepe ration dolorem tempore!Repudiance accusantium porro est eaque mariores neque atque maxime?</p>
+            <p style="height: 100px;width: 400px; background-color:azure;padding-top: 40px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic execitatenem omnis enum a ab  officiis,quisquam dolorum saepe ration dolorem tempore!Repudiance accusantium porro est eaque mariores neque atque maxime?</p>  
+    </div>
+    </div>
+<div class="slot">
+    <h1 style="text-align: center;color: black;font-size: 2em">Get YourSelf A Slot</h1>
+    <div class="booking">
+        <fieldset>
+        <h1 style="background-color: cadetblue;color:white;">Slot Booking Form</h1>
+        <label for="1">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name" id="'1"><br><br>
+        <label for="2">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name"><br><br>
+        <label for="service">Types Of Services:</label>
+        <select id="service">
+            <optgroup label="Select a Service">
+                <option value="Hair Cut">Hair Cut</option>
+                <option value="Beard Trimming">Beard Trimming</option>
+                <option value="Hair Styling">Hair Styling</option>
+                <option value="Dry Shampoo">Dry Shampoo</option>
+            </optgroup>
+        </select><br><br>
+        <label for="TimeSlot">Time Slots:</label>
+        <select id="TimeSlot">
+            <optgroup label="Select Suitable Time Slot">
+                <option value="9-10 am">9am-10am</option>
+                <option value="11-12am">11am-12am</option>
+                <option value="2-3pm">2pm-3pm</option>
+                <option value="4-5pm">4pm-5pm</option>
+                <option value="6-7pm">6pm-7pm</option>
+            </optgroup>
+        </select><br><br>
+        <label for="number">Mobile Number:</label>
+        <input type="number" placeholder="enter your mobile number" id="number"><br><br>
+        <label for="mode">Mode Of Payment:</label>
+        <select id="mode">
+            <optgroup label="Mode Of Payement:">
+                <option value="cash">cash</option>
+                <option value="UPI">UPI</option>
+                <option value="Card Swipe">Card Swipe</option>
+            </optgroup>
+        </select><br><br>
+        <button id="1">Book Now</button>
+    </fieldset> 
+    </div>
+</div>
+<div class="footerinfo">
+<footer class="footer">
+    <h3 style="text-align: center; color: cadetblue">CONTACT</h3>
+    <h1 style="text-align: center;color: black">Visit Shop Today</h1>
+    <div class="info">
+    <div class="time">
+        <h3>Opening Hours</h3>
+        <p>Monday to Friday-9am to 10pm</p>
+        <p>Saturday to Sunday-8am-11am</p>
+    </div>
+    <div class="contact">
+        <h3>Get in Touch</h3>
+        <p>abc colony,abc cityIN</p>
+        <p>abcexample@gmail.com</p>
+        <p>+91(000-000)000</p>
+    </div>
+</div>
+</footer>
+</div>
+</body>
+</html>
